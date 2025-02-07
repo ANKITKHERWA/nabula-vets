@@ -3,6 +3,6 @@
 }
 .active{
     background: var(--Gradient-02, linear-gradient(90deg, #FFA280 0%, #8FD9D9 100%));
-    -webkit-background-clip: text; 
    -webkit-text-fill-color: transparent;
 }
+html{scroll-behavior: smooth !important;}
