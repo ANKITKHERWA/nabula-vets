@@ -36,7 +36,7 @@
                             class="text-sm text-[#D7D9DD] hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300 duration-300 font-medium tracking-[1.4px] gred-hv Roboto-font">LOCATION</a>
                         <a href="./join-our-nebula-vets-team.html"
                             class="text-sm text-[#D7D9DD] hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300 duration-300 font-medium tracking-[1.4px] gred-hv text-gredient Roboto-font">CAREER</a>
-                        <a href="hospice-&-euthanasia.html"
+                        <a href="/"
                             class="text-sm text-[#D7D9DD] gred-hv hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300 duration-300 gred-hv font-medium tracking-[1.4px] Roboto-font">PATIENT
                             PORTAL</a>
                         <a href="./animal-health-check.html"
@@ -52,7 +52,7 @@
 
         <!-- Sidebar -->
         <div id="sidebar"
-            class="sidebar fixed top-0 right-0 h-full w-64 bg-[#494336] w-full sm:w-[400px] text-white shadow-xl transition-all duration-300 ease-in-out z-50 hidden">
+            class="sidebar fixed top-0 right-0 h-full w-64 bg-[#494336] w-full sm:w-[400px] text-white shadow-xl transition-all duration-300 ease-in-out z-50 hidden overflow-auto">
             <div
                 class="flex justify-between -mt-3 items-center max-w-[1440px] max-[359px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
                 <div>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
                 <div class="flex justify-end p-6">
-                    <button id="closeSidebar" class="text-white text-6xl">
+                    <button id="closeSidebar" class="text-white text-[48px]">
                         ×
                     </button>
                 </div>
@@ -92,7 +92,7 @@
         <div class="bg-[#494336]  relative">
             <div class="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
                 <div class="justify-between pt-[180px] sm:pb-[80px] pb-[40px] flex items-center">
-                    <div class="sm:pl-[50px] lg:pl-[100px] xl:pl-[136px] md:mt-[0px] mt-[100px]">
+                    <div class="sm:pl-[50px] lg:pl-[100px] xl:pl-[136px] md:mt-[0px] mt-[100px] z-10 relative">
                         <h1
                             class=" text-[32px] sm:text-[40px] md:text-[48px] lg:text-[58px] xl:text-[70px] font-regular sm:mt-0 text-[#D7D9DD] leading-[104%]">
                             Diagnostics</h1>
@@ -111,10 +111,10 @@
                                 NOW</a>
                         </div>
                     </div>
-                    <div class="absolute right-0 md:block hidden z-20">
+                    <div class="absolute right-0 md:block hidden max-w-[400px] xl:max-w-full">
                         <img src="./assest/img/png/Diagnostics page-img.png" alt="img" width="100%">
                     </div>
-                    <div class="block md:hidden absolute top-[120px] left-[120px] z-20">
+                    <div class="block md:hidden absolute top-[120px] right-0">
                         <img src="./assest/img/svg/Diagnostics page-img2.svg" alt="img">
                     </div>
                 </div>
@@ -156,7 +156,7 @@
                 <!-- Accordion Item 1 -->
                 <div>
                     <button onclick="toggleAccordion(1)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
                         <span>Blood Panel</span>
                         <span id="icon-1" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -181,7 +181,7 @@
                         </span>
                     </button>
                     <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[14px] text-[#494336] sm:text-[20px]">
+                        <div class="pb-5 text-[14px] text-[#494336] md:text-[20px] sm:text-[16px]">
                             Blood Panel: Our in-house laboratory enables us to perform a variety of blood tests,
                             including complete blood counts (CBC), blood chemistry profiles, thyroid hormone levels, and
                             infectious disease screenings. These tests provide valuable information about your pet's
@@ -195,7 +195,7 @@
                 <!-- Accordion Item 2 -->
                 <div>
                     <button onclick="toggleAccordion(2)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
                         <span>Urinalysis</span>
                         <span id="icon-2" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -220,7 +220,7 @@
                         </span>
                     </button>
                     <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text-[16px] text-[14px] text-[#494336]">
                             Urinalysis is important in diagnosing and monitoring various conditions that can affect your
                             pet's urinary system and overall health. Urine samples provide valuable insights into your
                             pet's well-being, allowing us to detect and address issues such as urinary tract infections
@@ -233,7 +233,7 @@
                 <!-- Accordion Item 3 -->
                 <div>
                     <button onclick="toggleAccordion(3)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Fecal Testing</span>
                         <span id="icon-3" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -258,7 +258,7 @@
                         </span>
                     </button>
                     <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text[16px] text-14px text-[#494336]">
                             Fecal testing is significant in identifying and treating parasites that can affect the
                             health of your pet and potentially pose a risk to your family members. Fecal testing is a
                             vital diagnostic tool that allows us to detect the presence of various parasites, including
@@ -271,7 +271,7 @@
                 <!-- Accordion Item 4 -->
                 <div>
                     <button onclick="toggleAccordion(4)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Cytology</span>
                         <span id="icon-4" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -296,7 +296,7 @@
                         </span>
                     </button>
                     <div id="content-4" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text-[16px] text-[14px] text-[#494336]">
                             Cytology is used for diagnosing and evaluating various conditions that may affect your pet's
                             health. Cytology involves the analysis of cells obtained from different sources, such as
                             skin, ears, or masses, and it provides valuable insights into identifying infections,
@@ -309,7 +309,7 @@
                 <!-- Accordion Item 5 -->
                 <div>
                     <button onclick="toggleAccordion(5)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Histopathology</span>
                         <span id="icon-5" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -334,7 +334,7 @@
                         </span>
                     </button>
                     <div id="content-5" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text-[16px] text-[14px]  text-[#494336]">
                             For a more in-depth analysis of tissues, we offer histopathology services. Tissue samples
                             obtained through biopsies or surgical procedures are examined under a microscope, allowing
                             us to diagnose and characterize diseases, identify tumors, and guide treatment strategies.
@@ -346,7 +346,7 @@
                 <!-- Accordion Item 6 -->
                 <div>
                     <button onclick="toggleAccordion(6)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between items-center gap-5 py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Tick & Heartworm testing</span>
                         <span id="icon-6" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -371,7 +371,7 @@
                         </span>
                     </button>
                     <div id="content-6" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text-[16px] text-[14px] text-[#494336]">
                             At Nebula Vets, we place a strong emphasis on preventive care and recommend annual tick and
                             heartworm testing for your pet's overall well-being. Tick-borne diseases and heartworm
                             disease are significant health concerns that can have severe consequences if left untreated.
@@ -385,7 +385,7 @@
                 <!-- Accordion Item 7 -->
                 <div>
                     <button onclick="toggleAccordion(7)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Allergy Testing</span>
                         <span id="icon-7" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -410,7 +410,7 @@
                         </span>
                     </button>
                     <div id="content-7" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text-[16px] text-[14px] text-[#494336]">
                             Allergy Testing: Nebula Vets offers comprehensive allergy testing to identify the specific
                             allergens that trigger your pet's allergic reactions. Through intradermal or blood-based
                             allergy tests, we determine environmental and food allergies, allowing us to develop
@@ -451,7 +451,7 @@
                 <!-- Accordion Item 8 -->
                 <div>
                     <button onclick="toggleAccordion(8)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
                         <span>Digital Radiography</span>
                         <span id="icon-8" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -476,7 +476,7 @@
                         </span>
                     </button>
                     <div id="content-8" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[14px] text-[#494336] sm:text-[20px]">
+                        <div class="pb-5 text-[14px] text-[#494336] md:text-[20px] sm:text-[16px]">
                             Our advanced digital radiography system allows us to capture high-resolution images of your
                             pet's bones, organs, and soft tissues. Radiographs are particularly useful in diagnosing
                             fractures, assessing the condition of internal organs, identifying tumors or foreign
@@ -490,7 +490,7 @@
                 <!-- Accordion Item 9 -->
                 <div>
                     <button onclick="toggleAccordion(9)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
                         <span>Ultrasound</span>
                         <span id="icon-9" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -515,7 +515,7 @@
                         </span>
                     </button>
                     <div id="content-9" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text-[16px] text-[14px] text-[#494336]">
                             With our cutting-edge ultrasound technology, we can visualize and assess the internal
                             structures
                             of your pet's body in real time. Ultrasounds help us examine the heart, abdomen,
@@ -530,7 +530,7 @@
                 <!-- Accordion Item 10 -->
                 <div>
                     <button onclick="toggleAccordion(10)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Echocardiograms</span>
                         <span id="icon-10" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -555,7 +555,7 @@
                         </span>
                     </button>
                     <div id="content-10" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 md:text-[20px] sm:text-[16px] text-[14px] text-[#494336]">
                             Echocardiogram services to assess the health and function of your pet's heart. An
                             echocardiogram, also known as a cardiac ultrasound, is a non-invasive and painless procedure
                             that provides detailed images of the heart's structures and function.
@@ -582,7 +582,7 @@
                                 <div class="swiper-slide h-auto">
                                     <div
                                         class="h-full bg-[#494336] pl-[60px] max-w-[530px] pt-[45px] pb-[80px] relative">
-                                        <ul class="list-disc">
+                                        <ul class="list-disc z-10">
                                             <li class="text-[24px] text-[#D7D9DD] Roboto-font">SNAP Lepto Test</li>
                                             <li class="text-[14px] sm:text-[20px] text-[#D7D9DD]">Add description</li>
                                             <li class="text-[24px] text-[#D7D9DD] Roboto-font mt-[20px]">SNAP cPL Test
@@ -597,7 +597,8 @@
                                             <li class="text-[14px] sm:text-[20px] text-[#D7D9DD]">Add description</li>
                                         </ul>
                                         <div class="absolute bottom-0 right-0"><img
-                                                src="./assest/img/svg/Nebula__Dog-diagnostics-page.svg" alt="img"></div>
+                                                src="./assest/img/svg/Nebula__Dog-diagnostics-page.svg" alt="img">
+                                        </div>
                                         <div class="absolute bottom-[20px] right-[10px] sm:hidden block"><svg
                                                 xmlns="http://www.w3.org/2000/svg" width="55" height="23"
                                                 viewBox="0 0 55 23" fill="none">
@@ -634,7 +635,8 @@
                                                 with cardiac risk factors</li>
                                         </ul>
                                         <div class="absolute bottom-0 right-0"><img
-                                                src="./assest/img/svg/Nebula__Cat diagnostics-img.svg" alt="img"></div>
+                                                src="./assest/img/svg/Nebula__Cat diagnostics-img.svg" alt="img">
+                                        </div>
 
                                     </div>
                                 </div>
@@ -650,7 +652,8 @@
     </section>
     <!-- footer  -->
     <footer>
-        <div class="bg-[#494336] relative border-b-[2px] border-solid border-[#D8DADC] max-lg:pb-[142px] ">
+        <div
+            class="bg-[#494336] relative border-b-[2px] border-solid border-[#D8DADC] max-lg:pb-[142px] overflow-hidden ">
             <div
                 class="absolute right-0 min-md:right-[37px] max-sm:max-w-[288px] !max-lg lg:max-w-[350px]:xl:max-w-[400px] !max-xl:max-w-[500px] bottom-0 pt-[20px]">
                 <img class="w-full sm:block hidden" src="./assest/img/png/3rd-page/png/Nebula__Stringent 3rd-page.png"
@@ -662,9 +665,9 @@
                     alt="img">
             </div>
             <div class="max-w-[1160px] px-[32px] sm:px-[40px] py-[60px] sm:py-[90px] mx-auto" id="portal">
-                <div class="max-w-[867px]">
+                <div class="max-w-[867px] relative z-10">
                     <p
-                        class="text-[24px] sm:text-[30px] md:text-[36px]  text-[#D7D9DD] mb-[13px] sm:mb-[20px] md:mb-[30px] sm:max-w-[530px] max-w-[230px]">
+                        class="text-[24px] sm:text-[30px] md:text-[36px]  text-[#D7D9DD] mb-[13px] sm:mb-[20px] md:mb-[30px] md:max-w-[530px] max-w-full">
                         We look forward to seeing you and your pet soon!
                     </p>
                     <p class="mt-[40px]">
@@ -840,20 +843,25 @@
         const closeSidebar = document.getElementById("closeSidebar");
         const sidebar = document.getElementById("sidebar");
         const overlay = document.getElementById("overlay");
+        const body = document.body;
 
         menuBar.addEventListener("click", () => {
             sidebar.classList.remove("hidden");
             overlay.classList.remove("hidden");
+            body.classList.add("overflow-hidden")
         });
 
         closeSidebar.addEventListener("click", () => {
             sidebar.classList.add("hidden");
             overlay.classList.add("hidden");
+            body.classList.remove("overflow-hidden")
         });
 
         overlay.addEventListener("click", () => {
             sidebar.classList.add("hidden");
             overlay.classList.add("hidden");
+            body.classList.remove("overflow-hidden")
+
         });
     });
 </script>

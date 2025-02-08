@@ -36,7 +36,7 @@
                             class="text-sm text-[#D7D9DD] hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300 font-medium tracking-[1.4px] gred-hv Roboto-font">LOCATION</a>
                         <a href="./join-our-nebula-vets-team.html"
                             class="text-sm text-[#D7D9DD] hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300 font-medium tracking-[1.4px] gred-hv text-gredient Roboto-font">CAREER</a>
-                        <a href="./hospice-&-euthanasia.html"
+                        <a href="/"
                             class="text-sm text-[#D7D9DD] gred-hv hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300 gred-hv font-medium tracking-[1.4px] Roboto-font">PATIENT
                             PORTAL</a>
                         <a href="./animal-health-check.html"
@@ -52,7 +52,7 @@
 
         <!-- Sidebar -->
         <div id="sidebar"
-            class="sidebar fixed top-0 right-0 h-full w-64 bg-[#494336] w-full sm:w-[400px] text-white shadow-xl transition-all duration-300 ease-in-out z-50 hidden">
+            class="sidebar fixed top-0 right-0 h-full w-64 bg-[#494336] w-full sm:w-[400px] text-white shadow-xl transition-all duration-300 ease-in-out z-50 hidden overflow-auto">
             <div
                 class="flex justify-between -mt-3 items-center max-w-[1440px] max-[359px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
                 <div>
@@ -61,7 +61,7 @@
                     </a>
                 </div>
                 <div class="flex justify-end p-6">
-                    <button id="closeSidebar" class="text-white text-6xl">
+                    <button id="closeSidebar" class="text-white text-[48px]">
                         ×
                     </button>
                 </div>
@@ -73,7 +73,7 @@
                 <li>
                     <a href="./join-our-nebula-vets-team.html" class="text-lg text-gredient Roboto-font">CAREER</a>
                 </li>
-                <li><a href="./hospice-&-euthanasia.html" class="text-lg Roboto-font">PATIENT PORTAL</a></li>
+                <li><a href="/" class="text-lg Roboto-font">PATIENT PORTAL</a></li>
                 <li>
                     <div class="w-fit py-2 sm:py-3 overflow-hidden z-[1] relative">
                         <a href="./animal-health-check.html"
@@ -92,7 +92,7 @@
         <div class="bg-[#494336]  relative">
             <div class="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto">
                 <div class="justify-between pt-[180px] sm:pb-[80px] pb-[40px] flex items-center">
-                    <div class="sm:pl-[50px] lg:pl-[100px] xl:pl-[136px] md:mt-[0px] mt-[100px]">
+                    <div class="sm:pl-[50px] lg:pl-[100px] xl:pl-[136px] md:mt-[0px] mt-[100px] relative z-1">
                         <h1
                             class=" text-[32px] sm:text-[40px] md:text-[48px] lg:text-[58px] xl:text-[70px] font-regular sm:mt-0 text-[#D7D9DD] leading-[104%] sm:max-w-[602px] max-w-[284px]">
                             Urgent & Emergency Care</h1>
@@ -107,10 +107,10 @@
                                 NOW</a>
                         </div>
                     </div>
-                    <div class="absolute right-0 md:block hidden">
+                    <div class="absolute right-0 md:block hidden sm:max-w-full max-w-[400px]">
                         <img src="./assest/img/png/Urgent Icon page-1img.png" alt="img" width="100%">
                     </div>
-                    <div class="block md:hidden absolute top-[120px] left-[120px]">
+                    <div class="block md:hidden absolute top-[120px] right-0">
                         <img src="./assest/img/svg/urgent-Layer_1 (4).svg" alt="img">
                     </div>
 
@@ -123,7 +123,7 @@
         <div class="absolute bottom-0 z-10 right-0 left-0 mx-auto">
             <img class="w-full" src="./assest/img/png/NBL_urgent-page-1img.png" alt="img">
         </div>
-        <div class="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto z-20 relative">
+        <div class="max-w-[1440px] max-[360px]:px-4 px-8 md:px-10 xl:px-[50px] mx-auto z-1 relative">
             <div class="sm:px-[25px] lg:px-[70px] xl:px-[130px]">
                 <h3 class="md:text-[36px] sm:text-[30px] text-[24px] text-[#494336]">Urgent & Emergency Care during open
                     hours</h3>
@@ -182,7 +182,7 @@
                         Emergency and Urgent Care:</h3>
                     <!-- Accordion Item 1 -->
                     <button onclick="toggleAccordion(1)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
                         <span>Immediate Access to Care</span>
                         <span id="icon-1" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -220,7 +220,7 @@
                 <!-- Accordion Item 2 -->
                 <div>
                     <button onclick="toggleAccordion(2)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] text-[#494336] leading-[150%] Roboto-font text-start">
                         <span>Skilled Veterinary Team</span>
                         <span id="icon-2" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -245,7 +245,7 @@
                         </span>
                     </button>
                     <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 text-[14px] sm:text-[20px] text-[#494336]">
                             Our veterinarians have extensive experience in emergency medicine and are well-versed in
                             handling urgent and critical cases. They possess the knowledge, skills, and quick
                             decision-making abilities necessary to provide the best possible care for your pet in
@@ -258,7 +258,7 @@
                 <!-- Accordion Item 3 -->
                 <div>
                     <button onclick="toggleAccordion(3)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>State-of-the-Art Facilities</span>
                         <span id="icon-3" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -283,7 +283,7 @@
                         </span>
                     </button>
                     <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 text-[14px] sm:text-[20px] text-[#494336]">
                             Nebula Vets is equipped with advanced diagnostic equipment and medical technology to support
                             our emergency and urgent care services. From digital radiography and ultrasound to an
                             in-house laboratory, we have the tools needed to quickly and accurately diagnose your pet's
@@ -296,7 +296,7 @@
                 <!-- Accordion Item 4 -->
                 <div>
                     <button onclick="toggleAccordion(4)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Compassionate and Calm Approach</span>
                         <span id="icon-4" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -321,7 +321,7 @@
                         </span>
                     </button>
                     <div id="content-4" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 text-[14px] sm:text-[20px] text-[#494336]">
                             We understand that emergencies can be stressful and emotional for both you and your pet. Our
                             veterinary team is trained to handle these situations with compassion and a calm demeanor.
                             We prioritize providing a comforting environment to help alleviate anxiety and provide
@@ -334,7 +334,7 @@
                 <!-- Accordion Item 5 -->
                 <div>
                     <button onclick="toggleAccordion(5)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Comprehensive Emergency Services</span>
                         <span id="icon-5" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -359,7 +359,7 @@
                         </span>
                     </button>
                     <div id="content-5" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 text-[14px] sm:text-[20px] text-[#494336]">
                             Nebula Vets offers a wide range of emergency services, including critical care, trauma
                             management, stabilization, pain management, and advanced life-saving procedures. We are
                             equipped to handle various emergencies, such as severe injuries, poisoning, respiratory
@@ -372,7 +372,7 @@
                 <!-- Accordion Item 6 -->
                 <div>
                     <button onclick="toggleAccordion(6)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Collaborative Care</span>
                         <span id="icon-6" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -397,7 +397,7 @@
                         </span>
                     </button>
                     <div id="content-6" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 text-[14px] sm:text-[20px] text-[#494336]">
                             We believe in open communication and collaboration. Our team works closely with you to
                             ensure you understand your pet's condition, treatment options, and associated costs. We
                             provide transparent and compassionate guidance to help you make informed decisions about
@@ -410,7 +410,7 @@
                 <!-- Accordion Item 7 -->
                 <div>
                     <button onclick="toggleAccordion(7)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Seamless Referrals</span>
                         <span id="icon-7" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -435,7 +435,7 @@
                         </span>
                     </button>
                     <div id="content-7" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 text-[14px] sm:text-[20px] text-[#494336]">
                             In complex cases requiring specialized care, we maintain strong relationships with local
                             specialty hospitals and can facilitate seamless referrals when necessary. We work together
                             with trusted specialists to ensure your pet receives the best possible care for their
@@ -448,7 +448,7 @@
                 <!-- Accordion Item 8 -->
                 <div>
                     <button onclick="toggleAccordion(8)"
-                        class="w-full flex justify-between items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
+                        class="w-full flex justify-between gap-5 items-center py-[32px] text-[16px] sm:text-[20px] md:text-[24px] leading-[150%] text-[#494336] Roboto-font text-start">
                         <span>Emergency Preparedness</span>
                         <span id="icon-8" class="text-slate-800 transition-transform duration-300">
                             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="31" viewBox="0 0 31 31"
@@ -473,7 +473,7 @@
                         </span>
                     </button>
                     <div id="content-8" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
-                        <div class="pb-5 text-[20px] text-[#494336]">
+                        <div class="pb-5 text-[14px] sm:text-[20px] text-[#494336]">
                             We encourage pet owners to be prepared for emergencies. Keep our contact information readily
                             available and familiarize yourself with basic first aid for pets. Prompt action and early
                             intervention can make a significant difference in emergency situations.
@@ -498,7 +498,7 @@
                 <img class="w-full mx-auto right-0 left-0" src="./assest/img/svg/Nebula__Stringent -2-img.svg"
                     alt="img">
             </div>
-            <div class="max-w-[1160px] px-[32px] sm:px-[40px] py-[60px] sm:py-[90px] mx-auto" id="portal">
+            <div class="max-w-[1160px] px-[32px] sm:px-[40px] py-[60px] sm:py-[90px] mx-auto relative z-1" id="portal">
                 <div class="max-w-[867px]">
                     <p
                         class="text-[24px] sm:text-[30px] md:text-[36px]  text-[#D7D9DD] mb-[13px] sm:mb-[20px] md:mb-[30px] sm:max-w-[530px] max-w-[230px]">
@@ -579,11 +579,11 @@
                             </p>
                             <div class="flex flex-col gap-[7px]">
                                 <a class="text-[#D7D9DD] text-sm sm:text-base underline hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300"
-                                    href="./animal-health-check.html">Preventive Care</a>
+                                    href="./veterinary-services.html">Preventive Care</a>
                                 <a class="text-[#D7D9DD] text-sm sm:text-base underline hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300"
-                                    href="./urgent-&-emergency-care.html">Sick Patient Care</a>
+                                    href="./veterinary-services.html">Sick Patient Care</a>
                                 <a class="text-[#D7D9DD] text-sm sm:text-base underline hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300"
-                                    href="./surgery.html">Surgery</a>
+                                    href="./veterinary-services.html">Surgery</a>
                                 <a class="text-[#D7D9DD] text-sm sm:text-base underline hover:text-transparent bg-clip-text bg-gradient-to-r from-[#FFA280] to-[#8FD9CB] duration-300"
                                     href="./veterinary-services.html">Additional Services</a>
                             </div>
@@ -677,20 +677,24 @@
         const closeSidebar = document.getElementById("closeSidebar");
         const sidebar = document.getElementById("sidebar");
         const overlay = document.getElementById("overlay");
+        const body = document.body;
 
         menuBar.addEventListener("click", () => {
             sidebar.classList.remove("hidden");
             overlay.classList.remove("hidden");
+            body.classList.add("overflow-hidden");
         });
 
         closeSidebar.addEventListener("click", () => {
             sidebar.classList.add("hidden");
             overlay.classList.add("hidden");
+            body.classList.remove("overflow-hidden");
         });
 
         overlay.addEventListener("click", () => {
             sidebar.classList.add("hidden");
             overlay.classList.add("hidden");
+            body.classList.remove("overflow-hidden");
         });
     });
 </script>
