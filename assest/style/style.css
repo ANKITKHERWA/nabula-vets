@@ -7,3 +7,10 @@
    -webkit-text-fill-color: transparent;
 }
 html{scroll-behavior: smooth !important;}
+
+
+.swiper-pagination.first .swiper-pagination-bullet-active
+{
+    background: #494336 !important;
+    opacity: 1 !important;
+}
