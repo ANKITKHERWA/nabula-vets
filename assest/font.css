@@ -6,3 +6,8 @@
     src: url(./font/AvanttTRIAL-Medium-BF6721a86adebb3.otf);
 }
 body{font-family:"Avantt";}
+@font-face {
+    font-family: "avantt-bold";
+    src: url(./font/AvanttTRIAL-Bold-BF6721a86b15f0a.otf);
+}
+.avant-bold{font-family: "avantt-bold";}
