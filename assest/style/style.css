@@ -11,6 +11,10 @@ html{scroll-behavior: smooth !important;}
 
 .swiper-pagination.first .swiper-pagination-bullet-active
 {
-    background: #494336 !important;
+    background: linear-gradient(90deg, #FFA280 0%, #8FD9CB 100%)!important;
+    opacity: 1 !important;
+}
+.swiper-pagination-bullet{
+    background: #494336!important;
     opacity: 1 !important;
 }
